@@ -23,7 +23,7 @@ function greet() {
 
 ## Proekts :
 
-cv
+CV : <https://github.com/Californiae/rsschool-cv/blob/gh-pages/cv.md>
 
 ## Education :
 
