@@ -1,0 +1,113 @@
+@font-face {
+    font-family: IBMPlexSerif;
+    src: url("assets/fonts/IBMPlexSerif-Medium.ttf");
+  }
+ @font-face {
+    font-family: Raleway;
+    src: url("assets/fonts/Raleway-Medium.ttf");
+  }  
+body {font-family: 'Raleway';
+    background-color: rgb(235, 211, 216);
+    min-height: 100vh;
+    margin: 0; padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #4d2340;
+}
+* {
+    box-sizing: border-box;
+    font-family: 'IBMPlexSerif'
+  }
+h1 {
+    color: rgb(75, 49, 134);
+    margin: 20px;
+}
+h3 {
+  color: rgb(90, 71, 133);
+  text-align: center; 
+}
+p {
+    font-family: verdana;
+    font-size: 20px;
+}
+.image {
+    width: 30%;
+    height: 30%;
+}
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+.nav-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+  }
+  .nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+    transition: 0.3s;
+  }
+  :link:hover {
+    text-decoration: none;
+    background: rgb(197, 143, 164);
+    text-decoration: none;
+    color: #408a4a;
+    transition: color 0.5s;
+  } 
+  #profile {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+  } 
+  .main-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  @media (max-width: 768px) {
+    .section {
+      width: 100%;
+    }
+  }
+  .section-title {
+    display: flex;
+    justify-content:first baseline;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 5px;
+    color: #774586;      
+  }
+  .section{
+    display: flex;
+    justify-content:baseline;
+   }
+  .list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;  
+    padding: 0 20px;
+    line-height: 50px;
+    transition: 0.3s;
+    margin-left: 50px;
+  }
+  .item{
+    background: rgb(247, 197, 214);
+    margin-left: 20px;
+    margin-right: 20px;
+   } 
+  .footer {
+    display: flex;
+    justify-content:first baseline;
+    align-items: center;
+    height: 100px;
+  } 
