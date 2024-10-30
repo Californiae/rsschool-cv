@@ -88,6 +88,9 @@ p {
     letter-spacing: 5px;
     color: #774586;      
   }
+  .section-title1{
+    display: inline-block;
+  }
   .section{
     display: flex;
     justify-content:baseline;
@@ -106,6 +109,7 @@ p {
     background: rgb(247, 197, 214);
     margin-left: 20px;
     margin-right: 20px;
+    font-weight:bold;
    } 
   .footer {
     display: flex;
